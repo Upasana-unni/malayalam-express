@@ -2,12 +2,12 @@
 body {
   font-family: sans-serif;
 }
-.form-container {
+/* .form-container {
   width: 50%;
   margin: auto;
   padding: 2%;
   border: 1px solid #f7f7f7;
-}
+} */
 label {
   display: block;
   margin-top: 25px;
@@ -20,7 +20,7 @@ input, textarea {
   border: 1px solid #ccc;
 }
 button {
-  width: 82.5%;
+  width: 82%;
   height: 50px;
   border-radius: 5px;
   color: #fff;

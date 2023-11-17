@@ -44,7 +44,7 @@
                 <a class="nav-link text-danger fs-5"href="links.html" >Ouick Links</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-danger fs-5" href="conn.php">Connect with us</a>
+                <a class="nav-link text-danger fs-5" href="conn.html">Connect with us</a>
               </li>
             </ul>
             <form class="d-flex" role="search">
@@ -57,10 +57,10 @@
       
   
 
-      <div class="form-container">
+      <!-- <div class="form-container">
         <h1>Contact Form</h1>
         <!-- <form action="mail.php" name="contactForm" method="POST" onsubmit = "return validate()" action="#"> -->
-          <form action="mailto:upasanaunnikrishnan2000@gmail.com" method="post" enctype="text/plain"></form>
+          <!-- <form action="mailto:upasanaunnikrishnan2000@gmail.com" method="post" enctype="text/plain"></form>
           <label for="name">* Name</label>
           <input type="text" id="name" name="name" placeholder="Your name" >
           <span class="errors"></span>
@@ -78,13 +78,46 @@
           
           <label for="subject">* Message</label>
           <textarea placeholder="Your message" cols="132" rows="5" name="message" id="subject"></textarea>
-          <span class="errors"></span>
+          <span class="errors"></span> -->
 
-          <label for="subject">* Feedback</label>
+          <!-- <label for="subject">* Feedback</label>
           <textarea placeholder="Your feedback" cols="132" rows="5" name="subject" id="subject"></textarea>
           <span class="errors"></span>
       
       
           <button type="submit" value="Submit">Submit</button>
         </form>
-      </div>
+      </div> --> 
+
+
+
+    <form
+      action="mailto:rudecruels@gmail.com"
+      method="post"
+      enctype="text/plain">
+      <label for="subject">Name</label>
+      <input type="text" id="subject" name="subject" />
+
+      <br/>
+      <label for="subject">Email</label>
+      <input type="email" id="subject" name="subject" />
+
+      <br/>
+      <label for="subject">Phone Number</label>
+      <input type="number" id="subject" name="subject" />
+
+      <br/>
+
+      <label for="body">Message</label>
+      <textarea id="body" name="body"></textarea>
+
+      <br/>
+      <label for="body">FeedBack</label>
+      <textarea id="body" name="body"></textarea>
+
+      <br/>
+
+      <input type="submit" value="Send" />
+    </form>
+  </body>
+</html>
