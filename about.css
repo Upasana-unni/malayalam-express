@@ -1,0 +1,32 @@
+/* body{
+    background-image: url("pic3.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0ch;
+    opacity: 0.2;
+    height: 1000px; */
+    /* width: 1670px;
+    height: 200px;
+    padding: 5px;
+    margin: 0px; */
+
+    .demo{
+    font-size: larger; 
+    font-weight: 100;
+ 
+}
+.img{
+    opacity: 0.1;
+    width: 1670px;
+}
+h2{
+    margin-top: 60px;
+    margin-left: 30px;
+}
+p{
+    font-weight: 400;
+    font-size: larger;
+    width: 700px;
+    margin-left: 400px;
+}
+
